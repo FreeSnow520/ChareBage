@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF600E102085A40E00FA34C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E0F2085A40E00FA34C8 /* AppDelegate.m */; };
+		BF600E182085A40E00FA34C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF600E172085A40E00FA34C8 /* Assets.xcassets */; };
+		BF600E1B2085A40E00FA34C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF600E192085A40E00FA34C8 /* LaunchScreen.storyboard */; };
+		BF600E1E2085A40E00FA34C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E1D2085A40E00FA34C8 /* main.m */; };
+		BF600E2B2085A76900FA34C8 /* XFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E2A2085A76900FA34C8 /* XFNavigationController.m */; };
+		BF600E2E2085A78300FA34C8 /* XFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E2D2085A78300FA34C8 /* XFTabBarController.m */; };
+		BF600E312085A79D00FA34C8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E302085A79D00FA34C8 /* BaseViewController.m */; };
+		BF600E352085A7C000FA34C8 /* XFSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E332085A7C000FA34C8 /* XFSettingsViewController.m */; };
+		BF600E362085A7C000FA34C8 /* XFSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF600E342085A7C000FA34C8 /* XFSettingsViewController.xib */; };
+		BF600E3A2085A7D900FA34C8 /* XFEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E382085A7D900FA34C8 /* XFEditingViewController.m */; };
+		BF600E3B2085A7D900FA34C8 /* XFEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF600E0B2085A40E00FA34C8 /* StunnerBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StunnerBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF600E0E2085A40E00FA34C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF600E0F2085A40E00FA34C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF600E172085A40E00FA34C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF600E1A2085A40E00FA34C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF600E1C2085A40E00FA34C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF600E1D2085A40E00FA34C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF600E292085A76900FA34C8 /* XFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFNavigationController.h; sourceTree = "<group>"; };
+		BF600E2A2085A76900FA34C8 /* XFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFNavigationController.m; sourceTree = "<group>"; };
+		BF600E2C2085A78300FA34C8 /* XFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTabBarController.h; sourceTree = "<group>"; };
+		BF600E2D2085A78300FA34C8 /* XFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTabBarController.m; sourceTree = "<group>"; };
+		BF600E2F2085A79D00FA34C8 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BF600E302085A79D00FA34C8 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BF600E322085A7C000FA34C8 /* XFSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFSettingsViewController.h; sourceTree = "<group>"; };
+		BF600E332085A7C000FA34C8 /* XFSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFSettingsViewController.m; sourceTree = "<group>"; };
+		BF600E342085A7C000FA34C8 /* XFSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFSettingsViewController.xib; sourceTree = "<group>"; };
+		BF600E372085A7D900FA34C8 /* XFEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFEditingViewController.h; sourceTree = "<group>"; };
+		BF600E382085A7D900FA34C8 /* XFEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFEditingViewController.m; sourceTree = "<group>"; };
+		BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFEditingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF600E082085A40E00FA34C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF600E022085A40E00FA34C8 = {
+			isa = PBXGroup;
+			children = (
+				BF600E0D2085A40E00FA34C8 /* StunnerBook */,
+				BF600E0C2085A40E00FA34C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF600E0C2085A40E00FA34C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E0B2085A40E00FA34C8 /* StunnerBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF600E0D2085A40E00FA34C8 /* StunnerBook */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E282085A5A400FA34C8 /* Library */,
+				BF600E242085A55A00FA34C8 /* Base */,
+				BF600E252085A56300FA34C8 /* Settings */,
+				BF600E262085A56B00FA34C8 /* All */,
+				BF600E272085A58100FA34C8 /* Editing */,
+				BF600E0E2085A40E00FA34C8 /* AppDelegate.h */,
+				BF600E0F2085A40E00FA34C8 /* AppDelegate.m */,
+				BF600E172085A40E00FA34C8 /* Assets.xcassets */,
+				BF600E192085A40E00FA34C8 /* LaunchScreen.storyboard */,
+				BF600E1C2085A40E00FA34C8 /* Info.plist */,
+				BF600E1D2085A40E00FA34C8 /* main.m */,
+			);
+			path = StunnerBook;
+			sourceTree = "<group>";
+		};
+		BF600E242085A55A00FA34C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E292085A76900FA34C8 /* XFNavigationController.h */,
+				BF600E2A2085A76900FA34C8 /* XFNavigationController.m */,
+				BF600E2C2085A78300FA34C8 /* XFTabBarController.h */,
+				BF600E2D2085A78300FA34C8 /* XFTabBarController.m */,
+				BF600E2F2085A79D00FA34C8 /* BaseViewController.h */,
+				BF600E302085A79D00FA34C8 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF600E252085A56300FA34C8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E322085A7C000FA34C8 /* XFSettingsViewController.h */,
+				BF600E332085A7C000FA34C8 /* XFSettingsViewController.m */,
+				BF600E342085A7C000FA34C8 /* XFSettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BF600E262085A56B00FA34C8 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E372085A7D900FA34C8 /* XFEditingViewController.h */,
+				BF600E382085A7D900FA34C8 /* XFEditingViewController.m */,
+				BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		BF600E272085A58100FA34C8 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		BF600E282085A5A400FA34C8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF600E0A2085A40E00FA34C8 /* StunnerBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF600E212085A40E00FA34C8 /* Build configuration list for PBXNativeTarget "StunnerBook" */;
+			buildPhases = (
+				BF600E072085A40E00FA34C8 /* Sources */,
+				BF600E082085A40E00FA34C8 /* Frameworks */,
+				BF600E092085A40E00FA34C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StunnerBook;
+			productName = StunnerBook;
+			productReference = BF600E0B2085A40E00FA34C8 /* StunnerBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF600E032085A40E00FA34C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "孙雪峰";
+				TargetAttributes = {
+					BF600E0A2085A40E00FA34C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF600E062085A40E00FA34C8 /* Build configuration list for PBXProject "StunnerBook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF600E022085A40E00FA34C8;
+			productRefGroup = BF600E0C2085A40E00FA34C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF600E0A2085A40E00FA34C8 /* StunnerBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF600E092085A40E00FA34C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF600E1B2085A40E00FA34C8 /* LaunchScreen.storyboard in Resources */,
+				BF600E3B2085A7D900FA34C8 /* XFEditingViewController.xib in Resources */,
+				BF600E362085A7C000FA34C8 /* XFSettingsViewController.xib in Resources */,
+				BF600E182085A40E00FA34C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF600E072085A40E00FA34C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF600E1E2085A40E00FA34C8 /* main.m in Sources */,
+				BF600E312085A79D00FA34C8 /* BaseViewController.m in Sources */,
+				BF600E2E2085A78300FA34C8 /* XFTabBarController.m in Sources */,
+				BF600E352085A7C000FA34C8 /* XFSettingsViewController.m in Sources */,
+				BF600E102085A40E00FA34C8 /* AppDelegate.m in Sources */,
+				BF600E2B2085A76900FA34C8 /* XFNavigationController.m in Sources */,
+				BF600E3A2085A7D900FA34C8 /* XFEditingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF600E192085A40E00FA34C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF600E1A2085A40E00FA34C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF600E1F2085A40E00FA34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF600E202085A40E00FA34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF600E222085A40E00FA34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StunnerBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sxfiCloudManager.StunnerBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF600E232085A40E00FA34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StunnerBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sxfiCloudManager.StunnerBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF600E062085A40E00FA34C8 /* Build configuration list for PBXProject "StunnerBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF600E1F2085A40E00FA34C8 /* Debug */,
+				BF600E202085A40E00FA34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF600E212085A40E00FA34C8 /* Build configuration list for PBXNativeTarget "StunnerBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF600E222085A40E00FA34C8 /* Debug */,
+				BF600E232085A40E00FA34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF600E032085A40E00FA34C8 /* Project object */;
+}
