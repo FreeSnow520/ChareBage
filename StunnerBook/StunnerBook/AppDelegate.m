@@ -7,16 +7,17 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TabbarSettings.h"
 @interface AppDelegate ()
-
+@property (nonatomic, strong) UIView *shadowView;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[TabbarSettings alloc] init].window;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -47,5 +48,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (UIView *)shadowView {
+    if (_shadowView == nil) {
+        _shadowView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        
+    }
+    return _shadowView;
+}
 
 @end

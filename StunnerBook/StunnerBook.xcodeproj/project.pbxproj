@@ -18,6 +18,11 @@
 		BF600E362085A7C000FA34C8 /* XFSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF600E342085A7C000FA34C8 /* XFSettingsViewController.xib */; };
 		BF600E3A2085A7D900FA34C8 /* XFEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E382085A7D900FA34C8 /* XFEditingViewController.m */; };
 		BF600E3B2085A7D900FA34C8 /* XFEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */; };
+		BF600E412085BF9E00FA34C8 /* TabbarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E402085BF9E00FA34C8 /* TabbarSettings.m */; };
+		BF600E452085C03A00FA34C8 /* XFAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF600E432085C03A00FA34C8 /* XFAllViewController.m */; };
+		BF600E462085C03A00FA34C8 /* XFAllViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF600E442085C03A00FA34C8 /* XFAllViewController.xib */; };
+		BFA24BCE2085E3F6003AAD0B /* SXShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA24BCD2085E3F6003AAD0B /* SXShadowView.m */; };
+		BFA24BD02085E410003AAD0B /* XFShadowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA24BCF2085E410003AAD0B /* XFShadowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,14 @@
 		BF600E372085A7D900FA34C8 /* XFEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFEditingViewController.h; sourceTree = "<group>"; };
 		BF600E382085A7D900FA34C8 /* XFEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFEditingViewController.m; sourceTree = "<group>"; };
 		BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFEditingViewController.xib; sourceTree = "<group>"; };
+		BF600E3F2085BF9E00FA34C8 /* TabbarSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarSettings.h; sourceTree = "<group>"; };
+		BF600E402085BF9E00FA34C8 /* TabbarSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarSettings.m; sourceTree = "<group>"; };
+		BF600E422085C03A00FA34C8 /* XFAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFAllViewController.h; sourceTree = "<group>"; };
+		BF600E432085C03A00FA34C8 /* XFAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFAllViewController.m; sourceTree = "<group>"; };
+		BF600E442085C03A00FA34C8 /* XFAllViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFAllViewController.xib; sourceTree = "<group>"; };
+		BFA24BCC2085E3F6003AAD0B /* SXShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXShadowView.h; sourceTree = "<group>"; };
+		BFA24BCD2085E3F6003AAD0B /* SXShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXShadowView.m; sourceTree = "<group>"; };
+		BFA24BCF2085E410003AAD0B /* XFShadowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFShadowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +126,9 @@
 		BF600E262085A56B00FA34C8 /* All */ = {
 			isa = PBXGroup;
 			children = (
-				BF600E372085A7D900FA34C8 /* XFEditingViewController.h */,
-				BF600E382085A7D900FA34C8 /* XFEditingViewController.m */,
-				BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */,
+				BF600E422085C03A00FA34C8 /* XFAllViewController.h */,
+				BF600E432085C03A00FA34C8 /* XFAllViewController.m */,
+				BF600E442085C03A00FA34C8 /* XFAllViewController.xib */,
 			);
 			path = All;
 			sourceTree = "<group>";
@@ -123,6 +136,9 @@
 		BF600E272085A58100FA34C8 /* Editing */ = {
 			isa = PBXGroup;
 			children = (
+				BF600E372085A7D900FA34C8 /* XFEditingViewController.h */,
+				BF600E382085A7D900FA34C8 /* XFEditingViewController.m */,
+				BF600E392085A7D900FA34C8 /* XFEditingViewController.xib */,
 			);
 			path = Editing;
 			sourceTree = "<group>";
@@ -130,8 +146,45 @@
 		BF600E282085A5A400FA34C8 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				BF600E3C2085BEBE00FA34C8 /* HelperTools */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		BF600E3C2085BEBE00FA34C8 /* HelperTools */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E3D2085BED200FA34C8 /* CustomClass */,
+			);
+			path = HelperTools;
+			sourceTree = "<group>";
+		};
+		BF600E3D2085BED200FA34C8 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				BFA24BCB2085E3C3003AAD0B /* ShadowView */,
+				BF600E3E2085BEE800FA34C8 /* TabbarSettings */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		BF600E3E2085BEE800FA34C8 /* TabbarSettings */ = {
+			isa = PBXGroup;
+			children = (
+				BF600E3F2085BF9E00FA34C8 /* TabbarSettings.h */,
+				BF600E402085BF9E00FA34C8 /* TabbarSettings.m */,
+			);
+			path = TabbarSettings;
+			sourceTree = "<group>";
+		};
+		BFA24BCB2085E3C3003AAD0B /* ShadowView */ = {
+			isa = PBXGroup;
+			children = (
+				BFA24BCC2085E3F6003AAD0B /* SXShadowView.h */,
+				BFA24BCD2085E3F6003AAD0B /* SXShadowView.m */,
+				BFA24BCF2085E410003AAD0B /* XFShadowView.xib */,
+			);
+			path = ShadowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA24BD02085E410003AAD0B /* XFShadowView.xib in Resources */,
 				BF600E1B2085A40E00FA34C8 /* LaunchScreen.storyboard in Resources */,
+				BF600E462085C03A00FA34C8 /* XFAllViewController.xib in Resources */,
 				BF600E3B2085A7D900FA34C8 /* XFEditingViewController.xib in Resources */,
 				BF600E362085A7C000FA34C8 /* XFSettingsViewController.xib in Resources */,
 				BF600E182085A40E00FA34C8 /* Assets.xcassets in Resources */,
@@ -206,12 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF600E412085BF9E00FA34C8 /* TabbarSettings.m in Sources */,
 				BF600E1E2085A40E00FA34C8 /* main.m in Sources */,
 				BF600E312085A79D00FA34C8 /* BaseViewController.m in Sources */,
+				BFA24BCE2085E3F6003AAD0B /* SXShadowView.m in Sources */,
 				BF600E2E2085A78300FA34C8 /* XFTabBarController.m in Sources */,
 				BF600E352085A7C000FA34C8 /* XFSettingsViewController.m in Sources */,
 				BF600E102085A40E00FA34C8 /* AppDelegate.m in Sources */,
 				BF600E2B2085A76900FA34C8 /* XFNavigationController.m in Sources */,
+				BF600E452085C03A00FA34C8 /* XFAllViewController.m in Sources */,
 				BF600E3A2085A7D900FA34C8 /* XFEditingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3F46653V7;
 				INFOPLIST_FILE = StunnerBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sxfiCloudManager.StunnerBook;
@@ -352,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3F46653V7;
 				INFOPLIST_FILE = StunnerBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sxfiCloudManager.StunnerBook;
